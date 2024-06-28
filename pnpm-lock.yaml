@@ -2,9 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@babel/core': ^7.24.7
+  '@types/js-cookie': ^3.0.6
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   eslint: ^9.5.0
+  js-cookie: ^3.0.5
   prettier: ^3.3.2
   query-string: ^9.0.0
   react: ^18.3.1
@@ -17,7 +19,9 @@ specifiers:
 
 dependencies:
   '@babel/core': registry.npmjs.org/@babel/core/7.24.7
+  '@types/js-cookie': registry.npmjs.org/@types/js-cookie/3.0.6
   eslint: registry.npmjs.org/eslint/9.5.0
+  js-cookie: registry.npmjs.org/js-cookie/3.0.5
   prettier: registry.npmjs.org/prettier/3.3.2
   query-string: registry.npmjs.org/query-string/9.0.0
   react: registry.npmjs.org/react/18.3.1
@@ -2023,6 +2027,12 @@ packages:
     version: 3.0.4
     dependencies:
       '@types/istanbul-lib-report': registry.npmjs.org/@types/istanbul-lib-report/3.0.3
+    dev: false
+
+  registry.npmjs.org/@types/js-cookie/3.0.6:
+    resolution: {integrity: sha512-wkw9yd1kEXOPnvEeEV1Go1MmxtBJL0RR79aOTAApecWFVu7w0NNXNqhcWgvw2YgZDYadliXkl14pa3WXw5jlCQ==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/js-cookie/-/js-cookie-3.0.6.tgz}
+    name: '@types/js-cookie'
+    version: 3.0.6
     dev: false
 
   registry.npmjs.org/@types/json-schema/7.0.15:
@@ -6762,6 +6772,13 @@ packages:
       jest-util: registry.npmjs.org/jest-util/29.7.0
       merge-stream: registry.npmjs.org/merge-stream/2.0.0
       supports-color: registry.npmjs.org/supports-color/8.1.1
+    dev: false
+
+  registry.npmjs.org/js-cookie/3.0.5:
+    resolution: {integrity: sha512-cEiJEAEoIbWfCZYKWhVwFuvPX1gETRYPw6LlaTKoxD3s2AkXzkCjnp6h0V77ozyqj0jakteJ4YqDJT830+lVGw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/js-cookie/-/js-cookie-3.0.5.tgz}
+    name: js-cookie
+    version: 3.0.5
+    engines: {node: '>=14'}
     dev: false
 
   registry.npmjs.org/js-tokens/4.0.0:
