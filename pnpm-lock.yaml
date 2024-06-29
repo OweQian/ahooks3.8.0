@@ -3,10 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.24.7
   '@types/js-cookie': ^3.0.6
+  '@types/lodash': ^4.17.6
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   eslint: ^9.5.0
   js-cookie: ^3.0.5
+  lodash: ^4.17.21
   prettier: ^3.3.2
   query-string: ^9.0.0
   react: ^18.3.1
@@ -20,8 +22,10 @@ specifiers:
 dependencies:
   '@babel/core': registry.npmjs.org/@babel/core/7.24.7
   '@types/js-cookie': registry.npmjs.org/@types/js-cookie/3.0.6
+  '@types/lodash': registry.npmjs.org/@types/lodash/4.17.6
   eslint: registry.npmjs.org/eslint/9.5.0
   js-cookie: registry.npmjs.org/js-cookie/3.0.5
+  lodash: registry.npmjs.org/lodash/4.17.21
   prettier: registry.npmjs.org/prettier/3.3.2
   query-string: registry.npmjs.org/query-string/9.0.0
   react: registry.npmjs.org/react/18.3.1
@@ -2039,6 +2043,12 @@ packages:
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/json-schema/-/json-schema-7.0.15.tgz}
     name: '@types/json-schema'
     version: 7.0.15
+    dev: false
+
+  registry.npmjs.org/@types/lodash/4.17.6:
+    resolution: {integrity: sha512-OpXEVoCKSS3lQqjx9GGGOapBeuW5eUboYHRlHP9urXPX25IKZ6AnP5ZRxtVf63iieUbsHxLn8NQ5Nlftc6yzAA==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/@types/lodash/-/lodash-4.17.6.tgz}
+    name: '@types/lodash'
+    version: 4.17.6
     dev: false
 
   registry.npmjs.org/@types/node/20.14.8:
