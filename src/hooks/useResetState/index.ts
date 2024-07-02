@@ -1,4 +1,4 @@
-import { Dispatch, SetStateAction, useRef, useState } from "react";
+import { type Dispatch, type SetStateAction, useRef, useState } from "react";
 import useCreation from "../useCreation";
 import { isFunction } from "lodash";
 import useMemoizedFn from "../useMemoizedFn";
