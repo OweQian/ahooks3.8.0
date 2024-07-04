@@ -6,3 +6,6 @@ export const isString = (value: unknown): value is string =>
 
 export const isUndef = (value: unknown): value is undefined =>
   typeof value === "undefined";
+
+export const isNumber = (value: unknown): value is number =>
+  typeof value === "number";
