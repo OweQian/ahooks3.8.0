@@ -15,6 +15,7 @@ specifiers:
   react: ^18.3.1
   react-dom: ^18.3.1
   react-router: ^6.24.0
+  screenfull: ^6.0.2
   stylelint: ^16.6.1
   typescript: ^5.0.3
   umi: ^4.2.13
@@ -33,6 +34,7 @@ dependencies:
   react: registry.npmjs.org/react/18.3.1
   react-dom: registry.npmjs.org/react-dom/18.3.1_react@18.3.1
   react-router: registry.npmjs.org/react-router/6.24.0_react@18.3.1
+  screenfull: registry.npmjs.org/screenfull/6.0.2
   stylelint: registry.npmjs.org/stylelint/16.6.1_typescript@5.5.2
   umi: registry.npmjs.org/umi/4.2.13_ysrpaxaj7mymdsvoh7qowsnzou
   webpack: registry.npmjs.org/webpack/5.92.1
@@ -9414,6 +9416,13 @@ packages:
       '@types/json-schema': registry.npmjs.org/@types/json-schema/7.0.15
       ajv: registry.npmjs.org/ajv/6.12.6
       ajv-keywords: registry.npmjs.org/ajv-keywords/3.5.2_ajv@6.12.6
+    dev: false
+
+  registry.npmjs.org/screenfull/6.0.2:
+    resolution: {integrity: sha512-AQdy8s4WhNvUZ6P8F6PB21tSPIYKniic+Ogx0AacBMjKP1GUHN2E9URxQHtCusiwxudnCKkdy4GrHXPPJSkCCw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/screenfull/-/screenfull-6.0.2.tgz}
+    name: screenfull
+    version: 6.0.2
+    engines: {node: ^14.13.1 || >=16.0.0}
     dev: false
 
   registry.npmjs.org/select-hose/2.0.0:

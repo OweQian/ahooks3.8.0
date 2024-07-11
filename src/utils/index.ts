@@ -9,3 +9,6 @@ export const isUndef = (value: unknown): value is undefined =>
 
 export const isNumber = (value: unknown): value is number =>
   typeof value === "number";
+
+export const isBoolean = (value: unknown): value is boolean =>
+  typeof value === "boolean";
