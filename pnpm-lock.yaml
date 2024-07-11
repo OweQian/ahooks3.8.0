@@ -7,6 +7,7 @@ specifiers:
   '@types/react': ^18.0.33
   '@types/react-dom': ^18.0.11
   eslint: ^9.5.0
+  intersection-observer: ^0.12.2
   js-cookie: ^3.0.5
   lodash: ^4.17.21
   prettier: ^3.3.2
@@ -24,6 +25,7 @@ dependencies:
   '@types/js-cookie': registry.npmjs.org/@types/js-cookie/3.0.6
   '@types/lodash': registry.npmjs.org/@types/lodash/4.17.6
   eslint: registry.npmjs.org/eslint/9.5.0
+  intersection-observer: registry.npmjs.org/intersection-observer/0.12.2
   js-cookie: registry.npmjs.org/js-cookie/3.0.5
   lodash: registry.npmjs.org/lodash/4.17.21
   prettier: registry.npmjs.org/prettier/3.3.2
@@ -6247,6 +6249,12 @@ packages:
       es-errors: registry.npmjs.org/es-errors/1.3.0
       hasown: registry.npmjs.org/hasown/2.0.2
       side-channel: registry.npmjs.org/side-channel/1.0.6
+    dev: false
+
+  registry.npmjs.org/intersection-observer/0.12.2:
+    resolution: {integrity: sha512-7m1vEcPCxXYI8HqnL8CKI6siDyD+eIWSwgB3DZA+ZTogxk9I4CDnj4wilt9x/+/QbHI4YG5YZNmC6458/e9Ktg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/intersection-observer/-/intersection-observer-0.12.2.tgz}
+    name: intersection-observer
+    version: 0.12.2
     dev: false
 
   registry.npmjs.org/invariant/2.2.4:
