@@ -15,6 +15,7 @@ specifiers:
   react: ^18.3.1
   react-dom: ^18.3.1
   react-router: ^6.24.0
+  resize-observer-polyfill: ^1.5.1
   screenfull: ^6.0.2
   stylelint: ^16.6.1
   typescript: ^5.0.3
@@ -42,6 +43,7 @@ dependencies:
 devDependencies:
   '@types/react': registry.npmjs.org/@types/react/18.3.3
   '@types/react-dom': registry.npmjs.org/@types/react-dom/18.3.0
+  resize-observer-polyfill: registry.npmjs.org/resize-observer-polyfill/1.5.1
   typescript: registry.npmjs.org/typescript/5.5.2
 
 packages:
@@ -9222,6 +9224,12 @@ packages:
     version: 2.0.2
     engines: {node: '>=0.10.0'}
     dev: false
+
+  registry.npmjs.org/resize-observer-polyfill/1.5.1:
+    resolution: {integrity: sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz}
+    name: resize-observer-polyfill
+    version: 1.5.1
+    dev: true
 
   registry.npmjs.org/resolve-from/4.0.0:
     resolution: {integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz}
