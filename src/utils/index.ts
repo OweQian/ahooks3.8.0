@@ -1,3 +1,6 @@
+export const isObject = (value: unknown): value is Record<any, any> =>
+  value !== null && typeof value === "object";
+
 export const isFunction = (value: unknown): value is (...args: any[]) => any =>
   typeof value === "function";
 
